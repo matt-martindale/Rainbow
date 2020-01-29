@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C93CD96D23E1286300880555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CD96C23E1286300880555 /* AppDelegate.swift */; };
-		C93CD96F23E1286300880555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93CD96E23E1286300880555 /* ViewController.swift */; };
 		C93CD97223E1286300880555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93CD97023E1286300880555 /* Main.storyboard */; };
 		C93CD97423E1286400880555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93CD97323E1286400880555 /* Assets.xcassets */; };
 		C93CD97723E1286400880555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93CD97523E1286400880555 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		C93CD96923E1286300880555 /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93CD96C23E1286300880555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C93CD96E23E1286300880555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C93CD97123E1286300880555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C93CD97323E1286400880555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93CD97623E1286400880555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,45 @@
 		C93CD96B23E1286300880555 /* Rainbow */ = {
 			isa = PBXGroup;
 			children = (
-				C93CD96C23E1286300880555 /* AppDelegate.swift */,
-				C93CD96E23E1286300880555 /* ViewController.swift */,
-				C93CD97023E1286300880555 /* Main.storyboard */,
-				C93CD97323E1286400880555 /* Assets.xcassets */,
-				C93CD97523E1286400880555 /* LaunchScreen.storyboard */,
+				C93CD98123E12D0E00880555 /* Model */,
+				C93CD98023E12CC500880555 /* Views */,
+				C93CD97F23E12CAC00880555 /* View Controllers */,
+				C93CD97E23E12C0B00880555 /* Resources */,
 				C93CD97823E1286400880555 /* Info.plist */,
 			);
 			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		C93CD97E23E12C0B00880555 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C93CD96C23E1286300880555 /* AppDelegate.swift */,
+				C93CD97323E1286400880555 /* Assets.xcassets */,
+				C93CD97523E1286400880555 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C93CD97F23E12CAC00880555 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C93CD98023E12CC500880555 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C93CD97023E1286300880555 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C93CD98123E12D0E00880555 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +164,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93CD96F23E1286300880555 /* ViewController.swift in Sources */,
 				C93CD96D23E1286300880555 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
